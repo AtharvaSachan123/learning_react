@@ -1,16 +1,14 @@
-"use client";
-import React, { useState } from 'react'
 
-import Header from './components/Header';
+import React from 'react'
 
 const App = () => {
-  const[user,setUser]= useState("Atharva");
   return (
     <div>
-     <Header user={user} />
-     {user}
+      <h1>This is home page</h1>
+     <a href="/About">About</a>
+     <a href='/Help'>help</a>
+     <a href=''> billo </a>
 
-      <p className="tt">dildo</p>
     </div>
   )
 }
