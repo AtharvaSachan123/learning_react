@@ -1,13 +1,11 @@
 
 import React from 'react'
-
+import axios  from 'axios'
 const App = () => {
   return (
     <div>
       <h1>This is home page</h1>
-     <a href="/About">About</a>
-     <a href='/Help'>help</a>
-     <a href=''> billo </a>
+     
 
     </div>
   )
